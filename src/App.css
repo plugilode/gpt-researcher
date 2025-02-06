@@ -1,0 +1,10 @@
+.App-logo {
+  height: 40px;
+  pointer-events: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .App-logo {
+    filter: brightness(0) invert(1); /* This will make the logo white in dark mode */
+  }
+} 
